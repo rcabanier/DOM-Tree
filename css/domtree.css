@@ -156,7 +156,7 @@ animation: spin 18s infinite linear;
 
 
 .tree > *{
-	        transform-style: detachedd;
+	        transform-style: detached;
 }
 
 .tree * {
