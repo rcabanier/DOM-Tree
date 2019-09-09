@@ -141,16 +141,7 @@ header {
 }
 
 body {
-	-webkit-perspective: 3000px;
-	   -moz-perspective: 3000px;
-	    -ms-perspective: 3000px;
-	     -o-perspective: 3000px;
 	        perspective: 3000px;
-
-	-webkit-perspective-origin: 0 20%;
-	   -moz-perspective-origin: 0 20%;
-	    -ms-perspective-origin: 0 20%;
-	     -o-perspective-origin: 0 20%;
 	        perspective-origin: 0 20%;
 }
 
@@ -158,23 +149,14 @@ body {
 	margin: 0 auto;
 	position: relative;
 
-	-webkit-animation: spin 18s infinite linear;
-	   -moz-animation: spin 18s infinite linear;
-	    -ms-animation: spin 18s infinite linear;
-	     -o-animation: spin 18s infinite linear;
-	        animation: spin 18s infinite linear;
+animation: spin 18s infinite linear;
 
-	-webkit-transform-origin: 50% 0;
-	   -moz-transform-origin: 50% 0;
-	    -ms-transform-origin: 50% 0;
-	     -o-transform-origin: 50% 0;
-	        transform-origin: 50% 0;
+			transform-origin: 50% 0;
+}
 
-	-webkit-transform-style: preserve-3d;
-	   -moz-transform-style: preserve-3d;
-	    -ms-transform-style: preserve-3d;
-	     -o-transform-style: preserve-3d;
-	        transform-style: preserve-3d;
+
+.tree > *{
+	        transform-style: detachedd;
 }
 
 .tree * {
